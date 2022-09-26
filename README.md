@@ -35,7 +35,7 @@ Pandas is used to clean the data, and a story is generated in Tableau.
 
 This page shows an overview of August 2019 CitiBike data. Within one month, there are 2,344,224 rides, 69,037,166,989 bikes available in the city, and 2,344,135 stations in operation. Among all the rides, there are 81.07% taken by loyalty program subscribers and 18.93% by regular customers; 65.28% taken by male users, 25.10% by female users and 9.62% users with undefined gender. From the overview we can conclude that there are 78,140 rides taken per day in average, and male subscribers are the main customers.
 
-<img width="1440" alt="1  Overview" src="https://user-images.githubusercontent.com/84211948/133383868-2ae4188e-9276-4709-bd12-01b2966c20c5.png">
+<img width="1440" alt="1  Overview" src="https://github.com/nfujikad/bikesharing/blob/main/Images_/1.%20Overview_.png">
 
 **2. Checkout Times for Users**
 
@@ -43,13 +43,13 @@ The graph shows the distribution of checkout times which are the durations betwe
 1.	A large number of stations are very close to each other, within distances of minutes of bike ridings.
 2.	Many users prefer to ride bikes when the distances are short, very likely that too short to take public transportations but good to ride bikes to avoid walking in hot summer.
 
-<img width="1440" alt="2  Checkout Times for Users" src="https://github.com/nfujikad/bikesharing/blob/main/Images/1.%20Overview.png">
+<img width="1440" alt="2  Checkout Times for Users" src="https://github.com/nfujikad/bikesharing/blob/main/Images_/2.%20Checkout%20Times%20for%20Users_.png">
 
 **3. Checkout Times by Gender**
 
 This dashboard shows the trip durations by genders. The gender breakdown is included on this board as a reference. The duration trend of each gender has similar pattern as the overall users’: peak at 5-6 minutes and mostly within 50 minutes. Moreover, we can conclude that the distribution of ride counts among genders also follows the gender breakdown.
 
-<img width="1440" alt="3  Checkout Times by Gender" src="https://user-images.githubusercontent.com/84211948/133383904-ef5057d4-2f1d-444d-9263-ae6883f06f02.png">
+<img width="1440" alt="3  Checkout Times by Gender" src="https://github.com/nfujikad/bikesharing/blob/main/Images_/3.%20Checkout%20Times%20by%20Gender_.png">
 
 **4. Trips by Weekday for Each Hour**
 
@@ -62,7 +62,7 @@ Conclusions from this dashboard:
 4.	In addition, Friday afternoon's usage of CitiBike starts much earlier, as many offices allow employees to get off work earlier on Fridays. Friday’s morning / afternoon rush hours are still busy but not as much as the other weekdays. 
 5.	For weekends, more bike rides are taken between 10am and 5pm. People tend to get up later on weekends and ride CitiBikes to enjoy the city on weekends. 
 
-<img width="1440" alt="4  Trips by Weekday for Each Hour" src="https://user-images.githubusercontent.com/84211948/133383928-d1266f38-4223-4765-a798-b897fffe2d29.png">
+<img width="1440" alt="4  Trips by Weekday for Each Hour" src="https://github.com/nfujikad/bikesharing/blob/main/Images_/4.%20Trips%20by%20Weekday%20for%20Each%20Hour_.png">
 
 **5. Trips by Gender (Weekday/Hour)**
 
@@ -70,7 +70,7 @@ This heatmap shows the number of bike rides by genders for each hour of each day
 
 For undefined gender section, we see a pattern that more users take bike rides on weekends. This fact will be analyzed in the following page.
 
-<img width="1440" alt="5  Trips by Gender (Weekday:Hour)" src="https://user-images.githubusercontent.com/84211948/133383953-1f59e977-344b-4184-8f23-4b25bc0836fd.png">
+<img width="1440" alt="5  Trips by Gender (Weekday:Hour)" src="https://github.com/nfujikad/bikesharing/blob/main/Images_/5.%20Trips%20by%20Gender%20(Weekday:Hour)_.png">
 
 **6. User Trips by Gender (Usertype/Weekday)**
 
@@ -80,7 +80,7 @@ As mentioned above, unsubscribed customers tend to ride more on weekends and sub
 
 Another interesting point is that all subscribers have their gender defined in the database. The company does a great job on collection information from subscribe users, and may be necessary to enhance data collection from unsubscribed users.
 
-<img width="1440" alt="6  User Trips by Gender (Usertype:Weekday)" src="https://user-images.githubusercontent.com/84211948/133383979-ddc48782-8fb7-4af6-9785-0d5204dba9b8.png">
+<img width="1440" alt="6  User Trips by Gender (Usertype:Weekday)" src="https://github.com/nfujikad/bikesharing/blob/main/Images_/6.%20User%20Trips%20by%20Gender%20(Usertype:Weekday)_.png">
 
 **7. Top Starting and Ending Locations Map**
 
@@ -90,7 +90,7 @@ Several popular areas are: Midtown area in both West and East along Broadway, Mi
 
 Upper Manhattan and Queens stations are less popular. Population distributions in these areas are less dense than in other areas as well. Especially in Queens, more people would choose public transportation due to the longer distance.
 
-<img width="1440" alt="7  Top Starting and Ending Locations" src="https://user-images.githubusercontent.com/84211948/133383991-017f5068-f1be-4908-9596-601eb0689f56.png">
+<img width="1440" alt="7  Top Starting and Ending Locations" src="https://github.com/nfujikad/bikesharing/blob/main/Images_/7.%20Top%20Starting%20and%20Ending%20Locations_.png">
 
 **8. Average Trip Duration**
 
@@ -98,7 +98,7 @@ This dashboard includes two area graphs of the average duration of bike rides by
 
 To keep the sufficiency of the analysis, we should filter out invalid data and outlier for a more accurate analysis. I chose birth year range from 1945 to 2002 and removed 1969. We can see a more consistent data from the adjusted area graph below. In this chart, we see a significant increase in trip duration after 1994. Therefore, users at 25-year-old and younger have longer trip durations. 
 
-<img width="1440" alt="8  Average Trip Duration" src="https://user-images.githubusercontent.com/84211948/133384688-78bac614-f601-48cb-99ac-01cea5a19a62.png">
+<img width="1440" alt="8  Average Trip Duration" src="https://github.com/nfujikad/bikesharing/blob/main/Images_/8.%20Top%20Bikes%20Used.png">
 
 ## III. Summary
 
@@ -108,7 +108,7 @@ Several points to summarize the visualized analysis above:
 3.  There are more rides during rush hours on weekdays, then followed by weekends daytime.  
 4.	Most rides are taken in city centers.
 
-In conclusion, for Kate to start a bikesharing business in Des Moines, she should first build stations in the busiest areas of the city, especially business districts where locate more office buildings to get a good start. Then, she can spread the business by building more stations around those areas. The busier the area is, the denser and larger the stations should be. Maintenance should be scheduled outside of busy hours, such as after 12am. For marketing, Kate can focus on male young age population first and create effective marketing strategies to attract subscribers. Overall, the potential of bike sharing business in Des Moines is very strong.
+In conclusion, to start a bikesharing business in Des Moines, we should first build stations in the busiest areas of the city, especially business districts where locate more office buildings to get a good start. Then, she can spread the business by building more stations around those areas. The busier the area is, the denser and larger the stations should be. Maintenance should be scheduled outside of busy hours, such as after 12am. For marketing, we can focus on male young age population first and create effective marketing strategies to attract subscribers. Overall, the potential of bike sharing business in Des Moines is very strong.
 
 ### Recommendations for further analysis
 
@@ -116,7 +116,6 @@ In conclusion, for Kate to start a bikesharing business in Des Moines, she shoul
 
 The first recommendation for further analysis is to conclude the top 20 starting stations and top 20 ending stations as shown in the dashboard below. The x-axis shows the station ID, and the tooltip includes the station name. The purpose of this analysis is to provide support to potential expansion plans. For top starting stations, CitiBike may consider adding more bikes, and for top ending stations, CitiBike can consider expanding the station to hold more bikes.
 
-<img width="1440" alt="9  Extra 1 Top 20 Stations" src="https://user-images.githubusercontent.com/84211948/133384057-986392f0-688f-407f-a3ef-2844e05e5516.png">
 
 **2. Stations by Usertype**
 
@@ -124,4 +123,3 @@ The second recommendation is to generate starting and ending station maps with m
 
 The purpose of this analysis is to explore potential marketing strategies based on user type. There are two popular attractions around the Bronx area: New York Botanical Garden and Bronx Zoo. It’s a convenient option to ride a bike from public transportation hub to the attractions The marketing team can market the advantage of CitiBike to tourists to increase unsubscribed userbase. For Jersey City, many people work in Manhattan and ride bikes to return home in Jersey City. It only takes 25 minutes to bike home from Lower Manhattan and approximately 45 minutes from Upper West Manhattan. The marketing team can utilize this type of usage to attract more subscribers in Jersey City area. 
 
-<img width="1440" alt="10  Extra 2 Stations by Usertype" src="https://user-images.githubusercontent.com/84211948/133384074-ab309328-a305-4888-85b7-a616503a542a.png">
