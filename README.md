@@ -1,22 +1,20 @@
-# CitiBike Analysis with Tableau
+# CitiBike Analysis
 
-[Link to Dashboard](https://public.tableau.com/views/bikesharing-challenge_16317893427150/1_Overview?:language=en-US&:display_count=n&:origin=viz_share_link)
+[Link to Dashboard](https://public.tableau.com/app/profile/nancy2033/viz/bikeshare_16638946639840/Story1)
 
 ## I. Project Overview
 
 ### Background
 
-Kate traveled to NYC last summer and enjoyed riding CitiBike everywhere, which allowed her to really get to know the city and interact with the people who live there and who are using bikes for their communities. 
+The goal is to start on the early stages of a bikesharing business for Des Moines, Iowa. In order to do so data needs to be analyzed for future implementation. 
 
-A gem of an idea starts to form in her mind. What if she could start a similar bikesharing business for her hometown of Des Moines, Iowa. I have been helping Kate to brainstorm, and with support from a potential investor who might be interested in providing seed funding to explore a bikesharing program in Des Moines.
-
-For the first step, we have decided to figure out how the bikesharing business actually works in New York City. From there, we will have a proposal on how it might work in Des Moines. Since I have data analysis experience, I will conduct a thorough analysis on CitiBike data from August 2019 and visualize the result using Tableau. 
+For the first step, biksharing data from New York City will be used to provide an idea of what to expect. This data will be used to generate a proposal for bikesharing implementation in Des Moines. The analysis will run on CitiBike data from August 2019. Results will be presented to investors by using Tableau. 
 
 ### Purposes
 
-The purpose of this analysis is to get a deep understanding of NYC CitiBike data so that Kate can create a solid business proposal to convince investors that the bikesharing program in Des Moines will success.
+The purpose of this analysis is to get a deep understanding of NYC CitiBike data to compose a convincing proposal to investors so a bikesharing prgram can be deployed in Des Moines.
 
-In this analysis, I first used Pandas to clean the data, then created a visualized story using Tableau.
+Pandas is used to clean the data, and a story is generated in Tableau.
 
 **The analysis includes:**
   1.	The length of time that bikes are checked out for all riders and genders.
@@ -25,7 +23,7 @@ In this analysis, I first used Pandas to clean the data, then created a visualiz
   4.	The number of bike trips for each type of gender for each day of the week.
   5.	The number of bike trips for each type of user and gender for each day of the week.
   6.	Top starting and ending stations for all users on maps.
-  7.	Average trip duration by ages.
+  7.	Bikes most frequently used.
 
 **In Summary section, I will also provide two further analysis recommendations.**
 1.	Top 20 stations’ ID and names.
@@ -45,7 +43,7 @@ The graph shows the distribution of checkout times which are the durations betwe
 1.	A large number of stations are very close to each other, within distances of minutes of bike ridings.
 2.	Many users prefer to ride bikes when the distances are short, very likely that too short to take public transportations but good to ride bikes to avoid walking in hot summer.
 
-<img width="1440" alt="2  Checkout Times for Users" src="https://user-images.githubusercontent.com/84211948/133383887-97aca310-6464-4601-91d1-9167be4d39ad.png">
+<img width="1440" alt="2  Checkout Times for Users" src="https://github.com/nfujikad/bikesharing/blob/main/Images/1.%20Overview.png">
 
 **3. Checkout Times by Gender**
 
